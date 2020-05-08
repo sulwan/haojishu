@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                     http://www.springframework.org/schema/beans/spring-beans.xsd
+                     http://code.alibabatech.com/schema/dubbo
+                     http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:service interface="com.haojishu.service.system.ISysLoginService" ref="ISysLoginService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysConfigService" ref="ISysConfigService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysDeptService" ref="ISysDeptService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysDictDataService" ref="ISysDictDataService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysDictTypeService" ref="ISysDictTypeService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysLogininforService" ref="ISysLogininforService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysMenuService" ref="ISysMenuService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysNoticeService" ref="ISysNoticeService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysOperLogService" ref="ISysOperLogService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysPostService" ref="ISysPostService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysPostService" ref="ISysPostService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysRoleService" ref="ISysRoleService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysUserOnlineService" ref="ISysUserOnlineService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysUserService" ref="ISysUserService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysJobService" ref="ISysJobService"/>
+
+    <dubbo:service interface="com.haojishu.service.system.ISysJobLogService" ref="ISysJobLogService"/>
+</beans>

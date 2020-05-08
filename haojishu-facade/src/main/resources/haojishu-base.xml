@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+
+    <!-- 生成远程服务代理，可以和本地bean一样使用 -->
+    <dubbo:reference interface="com.haojishu.service.system.ISysLoginService" id="ISysLoginService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysConfigService" id="ISysConfigService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysDeptService" id="ISysDeptService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysDictDataService" id="ISysDictDataService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysDictTypeService" id="ISysDictTypeService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysLogininforService" id="ISysLogininforService"
+                     check="false" timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysMenuService" id="ISysMenuService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysNoticeService" id="ISysNoticeService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysOperLogService" id="ISysOperLogService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysPostService" id="ISysPostService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysRoleService" id="ISysRoleService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysUserOnlineService" id="ISysUserOnlineService"
+                     check="false" timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysUserService" id="ISysUserService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysJobService" id="ISysJobService" check="false"
+                     timeout="10000"/>
+
+    <dubbo:reference interface="com.haojishu.service.system.ISysJobLogService" id="ISysJobLogService" check="false"
+                     timeout="10000"/>
+</beans>

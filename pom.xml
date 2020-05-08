@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>haojishu-common</module>
+        <module>haojishu-backend</module>
+        <module>haojishu-facade</module>
+        <module>haojishu-property</module>
+        <module>haojishu-service</module>
+        <module>haojishu-api</module>
+        <module>haojishu-web</module>
+    </modules>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.6.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.haojishu</groupId>
+    <artifactId>haojishu</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>haojishu</name>
+    <description>谦哼教育</description>
+
+    <properties>
+        <poi.version>3.17</poi.version>
+    </properties>
+
+    <dependencies>
+    </dependencies>
+
+</project>
